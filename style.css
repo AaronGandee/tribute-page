@@ -64,3 +64,6 @@ table {
 #tribute-info {
 
 }
+li {
+	overflow-wrap: normal;
+}
