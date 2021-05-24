@@ -1,0 +1,1 @@
+This is my first attempt a a tribute page as a suplemental part of my learning through free code camp and one of the requirements to gain the responsive web develpoment certification. I will also be adding this to codepen.io per there instructions but wanted to include it here for my learning portfolio. 
