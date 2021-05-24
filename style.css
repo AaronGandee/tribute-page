@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 #main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 
 }
 #title {
@@ -65,8 +69,13 @@ table {
 
 }
 #tribute-info {
-
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 600px;
 }
 li {
 	overflow-wrap: normal;
+	padding: 15px;
 }
