@@ -54,7 +54,7 @@ table {
 
 }
 #title {
-
+ font-weight: bold;
 }
 #img-div {
  display: flex;
@@ -63,10 +63,14 @@ table {
  align-items: center;
 }
 #image {
-
+	border: 2px solid black;
+	padding: 10px;
+	box-shadow: 5px 5px #422e42;
+ 
 }
 #image-caption {
-
+	padding: 15px;
+	font-style: italic;
 }
 #tribute-info {
  display: flex;
@@ -74,8 +78,36 @@ table {
  justify-content: center;
  align-items: center;
  width: 600px;
+ 
+}
+body {
+	background-color: rgb(125, 95, 156);
 }
 li {
 	overflow-wrap: normal;
-	padding: 15px;
+	padding: 10px;
+}
+h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+h2 {
+	font-weight: bold;
+	font-size: larger;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	font-weight: bold;
+	font-style: italic;
+}
+footer {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 24px;
 }
