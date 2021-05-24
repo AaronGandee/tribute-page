@@ -18,7 +18,12 @@
 	border: 2px solid black;
 	padding: 10px;
 	box-shadow: 5px 5px #422e42;
-	max-width: none;
+	width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
  
 }
 #image-caption {
